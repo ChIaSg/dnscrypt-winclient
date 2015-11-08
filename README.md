@@ -40,3 +40,14 @@ Possible future plans
 =====================
 - Pick up a few of the other parameters that the proxy accepts
 - Restore ability to add custom providers
+
+# 中文说明
+这个是 (https://github.com/Noxwizard/dnscrypt-winclient) 开源项目的分支。我主要做一些汉化工作，虽然我觉得不用汉化也很容易使用，不过还是会有些“不是中文会死星人”的。
+
+其实这个最原始的是DNSCrypt Proxy，用来干啥你懂的，我什么都不知道，只是在自学C#罢了~
+
+# 使用方法
+上面的英文你看不懂也没关系。你只需知道，你要到 (http://download.dnscrypt.org/dnscrypt-proxy/) 下载一个叫“dnscrypt-resolvers.csv”的文件放到这个程序的根目录，然后将系统的DNS设置为 127.0.0.1 ，双击运行本程序，选择网卡，设置DNS，然后点安装、开始即可。当然，这个网站是需要科学上网的。
+ 
+# 未来计划
+除了汉化之外，为了适应国内的网络环境，我可能会添加一些功能进去。
